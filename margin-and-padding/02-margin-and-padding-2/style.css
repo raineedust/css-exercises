@@ -7,21 +7,38 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
+
+/* margin-top specified prevents margin-bottom from overriding margin-top. See MDN for behavior reference.*/
 
 .title {
   background: #e3f4ff;
+  margin-top: 0%;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
 }
+
+/* margin-bottom specified instead of margin to prevent margins of sides.*/
 
 .content {
   background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
+  margin: 0 auto;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  padding: 8px 24px;
+  margin: 0 auto;
 }
